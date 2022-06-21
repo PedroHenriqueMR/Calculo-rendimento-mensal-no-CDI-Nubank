@@ -14,7 +14,7 @@ for (let contador = 1; contador <= meses;contador++){
   redimentoaomes += (total-dinheiro);
 
   console.log(`Valor total do rendimento no mês ${contador}: R$${redimentoaomes.toFixed(2)}.
-  Valor total do mês: ${total.toFixed(2)}`);
+  Valor total do mês: R$${total.toFixed(2)}`);
   if(contador == meses){
     
     console.log(`Você Investiu R$${dinheiro}.
