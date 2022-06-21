@@ -1,5 +1,6 @@
-let valoram = 1.054166666666667;
 let meses = 12;
+let valoraa = 12.65;
+let valoram = valoraa / meses;
 let dinheiro = 1500;
 let valorjuros = (dinheiro + (valoram * (dinheiro / 100)));
 let valorTotal = 0;
@@ -17,5 +18,5 @@ for (let contador = 1; contador <= meses;contador++){
     console.log(`Você Investiu R$${dinheiro}.
     Tendo um rendimento  de R$${redimentoaomes.toFixed(2)}, no período de ${meses} meses
     Totalizando na sua conta R$${total.toFixed(2)}`);
-  }
+  };
 };
