@@ -12,9 +12,11 @@ for (let contador = 1; contador <= meses;contador++){
   valorTotal += ((valorjuros + (valoram *(valorTotal /100)))-dinheiro);
   total = dinheiro+valorTotal;
   redimentoaomes += (total-dinheiro);
-  console.log(`Valor total da renda em ${contador} mês: R$${redimentoaomes.toFixed(2)}.
-  Valor total no mês: ${total.toFixed(2)}`);
+
+  console.log(`Valor total do rendimento no mês ${contador}: R$${redimentoaomes.toFixed(2)}.
+  Valor total do mês: ${total.toFixed(2)}`);
   if(contador == meses){
+    
     console.log(`Você Investiu R$${dinheiro}.
     Tendo um rendimento  de R$${redimentoaomes.toFixed(2)}, no período de ${meses} meses
     Totalizando na sua conta R$${total.toFixed(2)}`);
