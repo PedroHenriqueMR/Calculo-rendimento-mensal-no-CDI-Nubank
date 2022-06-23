@@ -1,5 +1,5 @@
 let meses = 12;
-let valoraa = 13.15;
+let valoraa = 12.65;
 let valoram = valoraa / meses;
 let dinheiro = 1500;
 let valorjuros = (dinheiro + (valoram * (dinheiro / 100)));
@@ -22,3 +22,5 @@ for (let contador = 1; contador <= meses;contador++){
     Totalizando na sua conta R$${total.toFixed(2)}`);
   };
 };
+
+console.log("Lembrando que os valores informados não leva em conta tributos como imposto de rende e IOF.")
